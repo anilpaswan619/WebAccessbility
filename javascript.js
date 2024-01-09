@@ -19,3 +19,19 @@ function changeMarginTop(change) {
     section.style.marginTop = newMarginTop + "px";
   });
 }
+// write a function to make links underlined and also make thw background color for link black
+
+function underlineLinks() {
+  var links = document.getElementsByTagName("a");
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].style.textDecoration !== "underline") {
+      links[i].style.textDecoration = "underline";
+      links[i].style.backgroundColor = "black";
+      links[i].style.color = "yellow";
+    } else {
+      links[i].style.textDecoration = "";
+      links[i].style.backgroundColor = "";
+      links[i].style.color = "";
+    }
+  }
+}

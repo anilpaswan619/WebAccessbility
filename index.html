@@ -54,7 +54,7 @@
         </div>
       </nav>
 
-      <h3 class="margin-top mb-4">
+      <h3 class="mt-5 mb-4">
         A Research Study on Enhancing Accessibility and Inclusivity in
         User-Centric HCI
       </h3>
@@ -130,44 +130,75 @@
           <div class="contact-card">
             <h4 class="mt-4 mb-4">Contact Information</h4>
             <p>
-              If you have any questions or need further information, please
-              contact us at:
+              If you have any questions need further information, please contact
+              at:
             </p>
             <p>Email: anilpaswan@gamil.com</p>
             <p>Phone: +91 56XXXXX78</p>
-            <p>Web: <a href="">BBAU, Lucknow</a></p>
-          </div>
-
-          <div data-toggle="collapse" data-target="#web-accessibility-tool">
-            <img
-              src="access-icon.png"
-              alt="accessibility icon"
-              class="access-icon"
-            />
-          </div>
-
-          <div class="collapse accessibility-card" id="web-accessibility-tool">
-            <div class="card card-body">
-              <a href="#" class="icon" id="increase-font-size">
-                <i class="fas fa-font"></i> Bigger Text
-              </a>
-
-              <a
-                href="#"
-                class="icon"
-                id="grayscale"
-                onclick="changeBackgroundColor(color)"
+            <p>
+              Web:
+              <a href="https://www.bbau.ac.in/" target="_blank"
+                >BBAU, Lucknow</a
               >
-                <i class="fas fa-adjust"></i> Contrast
-              </a>
+            </p>
+          </div>
 
-              <a href="#" class="icon" id="hypwerlink">
-                <i class="fas fa-link"></i> Hypwerlink
-              </a>
+          <div class="row">
+            <div class="col-2">
+              <div data-toggle="collapse" data-target="#web-accessibility-tool">
+                <img
+                  src="access-icon.png"
+                  alt="accessibility icon"
+                  class="access-icon"
+                />
+              </div>
+            </div>
 
-              <a href="#" class="icon" id="reset">
-                <i class="fas fa-undo"></i> Reset
-              </a>
+            <div class="col">
+              <div
+                class="collapse accessibility-card"
+                id="web-accessibility-tool"
+              >
+                <div class="card card-body">
+                  <a
+                    href="#"
+                    class="icon"
+                    id="increase-font-size"
+                    onclick="changeFontSize(1)"
+                  >
+                    <i class="fas fa-font"></i> Bigger Text
+                  </a>
+                  <a
+                    href="#"
+                    class="icon"
+                    id="decrease-font-size"
+                    onclick="changeFontSize(-1)"
+                  >
+                    <i class="fas fa-font"></i> Smaller Text
+                  </a>
+                  <a
+                    href="#"
+                    class="icon"
+                    id="change-color"
+                    onclick="changeBackgroundColor('#fff0f0')"
+                  >
+                    <i class="fas fa-adjust"></i> Contrast
+                  </a>
+
+                  <a
+                    href="#"
+                    class="icon"
+                    id="hypwerlink"
+                    onclick="underlineLinks();"
+                  >
+                    <i class="fas fa-link"></i> Hypwerlink
+                  </a>
+
+                  <a href="#" class="icon" id="reset">
+                    <i class="fas fa-undo"></i> Reset
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
