@@ -18,6 +18,9 @@ a {
   color: #007bff;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: none;
+}
 .margin-top {
   margin-top: 4.5rem;
 }
@@ -49,4 +52,23 @@ a {
   font-weight: 900;
   display: inline-block;
   margin-right: 10px;
+}
+.contact-card,
+.accessibility-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.accessibility-card .icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #007bff; /* Bootstrap primary color */
+  text-decoration: none;
+}
+
+.accessibility-card .icon i {
+  margin-right: 5px;
 }
