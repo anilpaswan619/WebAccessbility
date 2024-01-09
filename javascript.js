@@ -28,10 +28,12 @@ function underlineLinks() {
       links[i].style.textDecoration = "underline";
       links[i].style.backgroundColor = "black";
       links[i].style.color = "yellow";
+      links[i].style.padding = "10px";
     } else {
       links[i].style.textDecoration = "";
       links[i].style.backgroundColor = "";
       links[i].style.color = "";
+      links[i].style.padding = "";
     }
   }
 }
