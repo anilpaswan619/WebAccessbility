@@ -18,3 +18,35 @@ a {
   color: #007bff;
   text-decoration: none;
 }
+.margin-top {
+  margin-top: 4.5rem;
+}
+.form-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.objectives-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.objectives-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.objectives-card ul li::before {
+  content: "\f00c"; /* Font Awesome check icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-right: 10px;
+}
