@@ -1,6 +1,13 @@
 // Function to change the background color of the body
-function changeBackgroundColor(color) {
-  document.body.style.backgroundColor = color;
+function changeContrast() {
+  var body = document.body;
+  if (body.style.backgroundColor !== "black") {
+    body.style.backgroundColor = "black";
+    body.style.color = "white";
+  } else {
+    body.style.backgroundColor = "";
+    body.style.color = "";
+  }
 }
 
 // Function to increase or decrease the font size
