@@ -74,3 +74,6 @@ a:hover {
 .accessibility-card .icon i {
   margin-right: 5px;
 }
+.small-font {
+  font-size: 13px;
+}

@@ -44,3 +44,19 @@ function underlineLinks() {
     }
   }
 }
+
+function reset() {
+  // Reset body styles
+  var body = document.body;
+  body.style.backgroundColor = "";
+  body.style.color = "";
+
+  // Reset link styles
+  var links = document.getElementsByTagName("a");
+  for (var i = 0; i < links.length; i++) {
+    links[i].style.textDecoration = "";
+    links[i].style.backgroundColor = "";
+    links[i].style.color = "";
+    links[i].style.padding = "";
+  }
+}
